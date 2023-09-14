@@ -9,15 +9,15 @@ authors:
   - name: Davide Cozzolino
     link: https://www.grip.unina.it/members/cozzolino
     index: 1
-   - name: Riccardo Corvi
-    link:https://www.grip.unina.it/members/corvi
-    index:1
+  - name: Riccardo Corvi
+    link: https://www.grip.unina.it/members/corvi
+    index: 1
   - name: Giovanni Poggi
-    link:https://www.grip.unina.it/members/poggi
-    index:1
+    link: https://www.grip.unina.it/members/poggi
+    index: 1
   - name: Luisa Verdoliva
-    link:https://www.grip.unina.it/members/verdoliva
-    index:1
+    link: https://www.grip.unina.it/members/verdoliva
+    index: 1
 affiliations: 
   - name: University Federico II of Naples, Italy
     index: 1
