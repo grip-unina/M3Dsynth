@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: M3Dsynth; A dataset of medical 3D images with AI-generated local manipulations 
+paper: M3Dsynth&colon; A dataset of medical 3D images with AI-generated local manipulations 
 github_url: https://github.com/grip-unina/M3Dsynth
 authors:  
   - name: Giada Zingarini
