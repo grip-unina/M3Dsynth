@@ -20,3 +20,13 @@ including when training and test sets are not aligned, showing good generalizati
 
 ## Code  
 The code and dataset will be available soon
+
+## Bibtex 
+```
+@article{zingarini2023m3dsynth,
+  title={{M3Dsynth}: A dataset of medical 3D images with AI-generated local manipulations}, 
+  author={Giada Zingarini and Davide Cozzolino and Riccardo Corvi and Giovanni Poggi and Luisa Verdoliva},
+  journal={arXiv preprint arXiv:2309.07973},
+  year={2023}
+}
+```
