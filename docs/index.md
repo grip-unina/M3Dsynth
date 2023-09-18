@@ -41,9 +41,17 @@ including when training and test sets are not aligned, showing good generalizati
 
 ```
 @article{zingarini2023m3dsynth,
-  title={{M3Dsynth}: A dataset of medical 3D images with AI-generated local manipulations}, 
   author={Giada Zingarini and Davide Cozzolino and Riccardo Corvi and Giovanni Poggi and Luisa Verdoliva},
+  title={M3Dsynth: A dataset of medical 3D images with AI-generated local manipulations},   
   journal={arXiv preprint arXiv:2309.07973},
   year={2023}
 }
 ```
+  
+## Acknowledgments
+ 
+We gratefully acknowledge the support of this research by the Defense Advanced Research Projects Agency (DARPA) under agreement number FA8750-20-2-1004.
+The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright notation thereon.
+The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of DARPA or the U.S. Government.
+
+This work has also received funding by the European Union under the Horizon Europe vera.ai project, Grant Agreement number 101070093, and is supported by a TUM-IAS Hans Fischer Senior Fellowship and by PREMIER funded by the Italian Ministry of Education, University, and Research within the PRIN 2017 program.
