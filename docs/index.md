@@ -24,6 +24,7 @@ affiliations:
 ---
 
 [![Github](https://img.shields.io/badge/Github%20page-222222.svg?style=for-the-badge&logo=github)](https://github.com/grip-unina/M3Dsynth/)
+[![arXiv](https://img.shields.io/badge/-arXiv-B31B1B.svg?style=for-the-badge)](https://arxiv.org/abs/2309.07973)
 [![GRIP](https://img.shields.io/badge/-GRIP-0888ef.svg?style=for-the-badge)](https://www.grip.unina.it)
 
 <center><img src="./images.png" alt="images" width="500pt" /></center>
