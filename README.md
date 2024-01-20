@@ -30,6 +30,7 @@ including when training and test sets are not aligned, showing good generalizati
 ![pillow](https://img.shields.io/badge/pillow-grey.svg?style=plastic)
 ![numpy](https://img.shields.io/badge/numpy-grey.svg?style=plastic)
 ![pydicom](https://img.shields.io/badge/pydicom-grey.svg?style=plastic)
+![matplotlib](https://img.shields.io/badge/matplotlib-grey.svg?style=plastic)
 
 ## Dataset
 

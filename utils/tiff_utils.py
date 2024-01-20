@@ -44,3 +44,23 @@ def save_tiff_scan(dirname, scan, mode=None, compression='lzma'):
     os.makedirs(dirname, exist_ok=True)
     for index in range(scan.shape[0]):        
         Image.fromarray(scan[index], mode=mode).save(dirname+'/slide%04d.tiff' % index, compression=compression, lossless=True)
+
+
+def get_percentile_tiff_scan(dirname, dtype):
+    low_perc = 1
+    high_perc = 99
+    filename = dirname+'/percentile.npy'
+    if not os.path.isfile(filename):
+        scan = load_tiff_scan(dirname, dtype)
+        non_zeros = scan > 0
+        low, high = np.percentile(scan[non_zeros], [low_perc, high_perc])
+        np.save(filename, (low, high))
+    
+    low, high = np.load(filename)
+    return low, high
+
+
+def apply_percentile(scan, low, high):
+    scan = np.clip(scan, low, high)
+    scan = (scan - low) / (high-low)
+    return scan
